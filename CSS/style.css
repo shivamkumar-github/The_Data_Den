@@ -1,0 +1,30 @@
+/* General Reset */
+body { margin: 0; font-family: 'Roboto', Arial, sans-serif; background-color: #f4f4f9; color: #333; }
+
+/* Top Navigation Bar */
+#subtopnav { display: flex; align-items: center; background: linear-gradient(90deg, #007bff, #6610f2); color: #fff; padding: 10px 15px 10px 30px; position: sticky; top: 0; z-index: 1000; }
+
+/* Menu items container */
+#menu_items { display: flex; align-items: center; overflow-x: auto; flex-grow: 1; margin: 0 20px; -ms-overflow-style: none; scrollbar-width: none; scroll-behavior: smooth; }
+#menu_items::-webkit-scrollbar { display: none; }
+
+/* Menu links */
+#menu_items a { color: #fff; background-color: rgba(255, 255, 255, 0.1); margin-right: 10px; padding: 10px 15px; text-decoration: none; border-radius: 5px; transition: all 0.3s ease; font-weight: bold; }
+#menu_items a:hover { background-color: rgba(255, 255, 255, 0.3); }
+
+/* Scroll arrows */
+
+.scroll-arrow {width: 40px; height: 40px; background-color: rgba(0, 0, 0, 0.3); border: none; color: white; padding: 10px; cursor: pointer; z-index: 10; display: flex; align-items: center; justify-content: center; position: absolute; top: 50%; transform: translateY(-50%);}
+#scroll-left { left: 5px;}
+#scroll-right { right: 5px;}
+
+.scroll-arrow { background-color: rgba(0, 0, 0, 0.3); border: none; color: white; padding: 10px; cursor: pointer; z-index: 1; display: flex; align-items: center; justify-content: center; }  
+@media (max-width: 1024px) { .scroll-arrow { display: none !important; } }
+
+/* Main Content */
+.content { margin-left: 0; padding: 20px; transition: margin-left 0.3s ease; }
+
+/* Typography */
+h1 { color: #333; font-size: 28px; margin-bottom: 15px; }
+p { line-height: 1.6; }
+
