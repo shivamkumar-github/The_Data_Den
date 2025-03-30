@@ -15,9 +15,9 @@
             <a href="#">Contact Us</a>
         </div>
         <div class="footer-icons">
-            <img src="Images\instagram.png" alt="Instagram"> <!-- flaticon.com -->
-            <img src="Images\linkedin.png" alt="LinkedIn">
-            <img src="Images\youtube.png" alt="YouTube">
+            <img src="Images\instagram.png" alt="Instagram">
+            <a href="https://www.linkedin.com/company/thedataden" target="_blank"><img src="Images\linkedin.png" alt="LinkedIn"></a>
+            <a href="https://www.youtube.com/@DataDenOfficial" target="_blank"><img src="Images\youtube.png" alt="YouTube"></a>
         </div>
     </footer>
 </body>
